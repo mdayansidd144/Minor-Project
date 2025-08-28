@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+.message {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.user {
+    background: #d1e7ff;
+    text-align: right;
+}
+.bot {
+    background: #e0e0e0;
+}
+.status {
+    color: blue;
+    text-align: center;
+}
+.controls {
+    text-align: center;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#startBtn { background: green; color: white; }
+#stopBtn { background: red; color: white; }
+button:disabled { background: #ccc; cursor: not-allowed; }
